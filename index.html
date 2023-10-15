@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeatherApp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/weather.css">
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-box">
+      <div class="row">
+        <div class="col-4">
+    <h1>Manzini, Eswatini</h1>
+    <br />
+    <span class="sun">
+    ☀
+    </span>
+    <br />
+    <span id = temp><strong>68</strong></span> F˚| C˚
+    <br />
+    <div id =description> Clear </div>
+        </div>
+   <div class="col-8">
+      <form>
+      <input type="text" placeholder="Type City" id= "search-text-input" />
+      <input type="submit" value="search" />
+    </form>
+    <button id = location>
+      current
+    </button>
+   <h2>Monday</h2>
+    <p>
+        <ul>
+          <li>
+        Precipitation :<span id = percipitation> 1%
+        </span>
+          </li>
+          <li>
+             Humidity:<span id= humidity> 68%
+             </span>
+          </li>
+           <li>
+            Wind:<span id = wind> 7mph
+            </span>
+           </li>
+        </ul>
+    </p>
+    <div class="row">
+      <div class="col">
+        Tue
+        <br />
+        🌧
+      </div>
+      <div class="col">
+Wed
+<br />
+⛅
+      </div>
+      <div class="col">
+        Thurs
+        <br />
+        ☀
+      </div>
+      <div class="col">
+        Fri
+        <br />
+        ☀
+      </div>
+      <div class="col">
+        Sat  
+        <br />
+        🌦
+     </div>
+    </div>
+   </div>
+  </div>
+      </div>
+    </div>
+  <script src="src/index.js"></script>
+  </body>
+</html>
