@@ -29,3 +29,7 @@ button {
   position: relative;
   right: 1;
 }
+
+.codeLink {
+  text-align: center;
+}
